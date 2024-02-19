@@ -13,7 +13,7 @@ function Product() {
             </div>
             <div className="Product-top">
                 <div className="Product-top-left">
-                    <Chart title="Sale IN Month" data={ProductData} dataKey="Sales" ></Chart>
+                    <Chart title="Sale IN Month" data={ProductData} dataKey="sale" ></Chart>
                 </div>
                 <div className="Product-top-right">
                     <div className="Product-top-right-imgName">

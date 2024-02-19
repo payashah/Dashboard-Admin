@@ -38,13 +38,14 @@
     border-radius: .5rem;
     box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
     background-color: white;
-    padding: 10px;
+    padding: 24px 20px;
     margin: 10px;
 }
 
 .Product-top-right-imgName {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .Product-top-right-img {
@@ -54,7 +55,9 @@
     margin-right: 30px;
 }
 
-.Product-top-right-Name {}
+.Product-top-right-Name {
+    margin-left: 40px;
+}
 
 .Product-top-right-info {
     display: flex;
@@ -63,12 +66,15 @@
 
 .Product-top-right-info-title {
     margin-right: 30px;
-    line-height: .55;
+    line-height: 10px;
+    margin-left: 15px;
 
 }
 
 .Product-top-right-info-respond {
-    line-height: .55;
+    margin-right: 30px;
+    line-height: 10px;
+    margin-left: 15px;
 }
 
 .Product-top-right-info-title-item {
@@ -90,7 +96,7 @@
     box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
     background-color: white;
     margin: 10px;
-    padding: 10px;
+    padding: 30px 10px;
 }
 
 .Product-button {

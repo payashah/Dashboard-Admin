@@ -1,0 +1,50 @@
+.newUser-ctrl {
+    margin: 0 10px;
+    flex: 5;
+}
+
+.newUser-title {
+
+    padding-top: 10px;
+}
+
+.newUser-inputs {
+    display: flex;
+    align-items: center;
+}
+
+.newUser-inputs-box {
+    margin-right: 50px;
+}
+
+.newUser-inputs-item {}
+
+.newUser-inputs-item-title {
+    font-size: 20px;
+    margin-bottom: .7rem;
+}
+
+.newUser-inputs-item-input {
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    width: 20rem;
+    padding: .5rem;
+    font-size: 18px;
+}
+
+.newUser-btn {
+    background-color: teal;
+    color: white;
+    font-size: 25px;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    padding: .5rem 1.5rem;
+    margin-top: 3rem;
+}
+
+.newUser-btn:hover {
+    background-color: rgb(1, 90, 90);
+    cursor: pointer;
+}

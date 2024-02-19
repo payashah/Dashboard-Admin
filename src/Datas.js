@@ -1,16 +1,16 @@
 let Xdata = [
-    { "name": "jun", "sale": 120_000 },
+    { "name": "jun", "sale": 420_000 },
     { "name": "Feb", "sale": 110_000 },
-    { "name": "March", "sale": 200_000 },
-    { "name": "Avrl", "sale": 80_000 },
+    { "name": "March", "sale": 700_000 },
+    { "name": "Avrl", "sale": 180_000 },
     { "name": "May", "sale": 310_000 },
     { "name": "Jon", "sale": 190_000 },
-    { "name": "July", "sale": 90_000 },
-    { "name": "Agust", "sale": 530_000 },
-    { "name": "Sep", "sale": 450_000 },
+    { "name": "July", "sale": 600_000 },
+    { "name": "Agust", "sale": 230_000 },
+    { "name": "Sep", "sale": 650_000 },
     { "name": "Octobr", "sale": 840_000 },
-    { "name": "Nev", "sale": 720_000 },
-    { "name": "Des", "sale": 130_000 },
+    { "name": "Nev", "sale": 320_000 },
+    { "name": "Des", "sale": 630_000 },
 ]
 const NewJoin = [
     { id: 1, img: "/pic/react.jpg", name: "Paya", job: "React Dev" },
@@ -41,9 +41,9 @@ let AllProducts = [
 
 ]
 const ProductData = [
-    { "name": "Jun", "sale": 120_000 },
+    { "name": "Jun", "sale": 420_000 },
     { "name": "Feb", "sale": 110_000 },
-    { "name": "March", "sale": 200_000 },
+    { "name": "March", "sale": 700_000 },
 ]
 
 export { Xdata, NewJoin, NewTransActions, UserRows, AllProducts, ProductData }
