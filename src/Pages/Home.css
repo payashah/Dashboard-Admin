@@ -1,6 +1,12 @@
+.home-ctrl {
+    flex: 5;
+    position: sticky;
+}
+
 .home-footer {
 
     display: flex;
     align-items: start;
     margin: 0 14px;
+
 }

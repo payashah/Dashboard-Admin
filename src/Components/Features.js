@@ -22,7 +22,7 @@ function Features() {
             <div className="feature-ctrl">
                 <span className="feature-title">Sales</span>
                 <div className="feature-price-ctrl">
-                    <span className="feature-price">$ 1.2</span>
+                    <span className="feature-price">$ 1.200</span>
                     <span className="feature-price-telorance negative">1.4 </span>
                     <span className="feature-price-telorance-icon"><ArrowDownwardIcon className="feature-price-telorance-icon negative"></ArrowDownwardIcon></span>
                 </div>

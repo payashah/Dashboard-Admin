@@ -10,7 +10,7 @@ function TopBar() {
         <div className="topbar-page">
             <div className="topbar-ctrl">
                 <div className="topbar-title">
-                    <h1 className="topbar-name"> Paya Learn</h1>
+                    <h1 className="topbar-name"> Paya Dashboard</h1>
                 </div>
                 <div className="topbar-icons">
                     <div className="topbar-icons-item">

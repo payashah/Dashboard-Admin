@@ -10,7 +10,7 @@ import React from "react"
 function Home() {
 
     return (
-        <div>
+        <div className="home-ctrl">
             <Features></Features>
             <Chart title="Mounth Sales" data={Xdata} grid dataKey="sale"></Chart>
             <div className="home-footer">

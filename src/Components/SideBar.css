@@ -21,6 +21,7 @@
 
 .sidebar-title {
     margin-left: 5px;
+    font-size: 25px;
 }
 
 .sidebar-dashboard {}
@@ -29,17 +30,21 @@
 
 .sidebar-dashboard-menu-item {
     display: flex;
-    align-items: end;
+    align-items: center;
     cursor: pointer;
     margin-left: .5rem;
     text-decoration: none !important;
     color: brown !important;
+    line-height: 2rem;
+    font-size: 20px;
 
 
 }
 
 .sidebar-dashboard-menu-item-logo {
     margin-right: .5rem;
+    font-size: 20px;
+
 }
 
 .sidebar-dashboard-menu-item:hover {
