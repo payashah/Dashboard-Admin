@@ -1,0 +1,20 @@
+.cart-data{
+    border-top: 1px solid chocolate;
+    padding: .5rem 0;
+    color: chartreuse;
+}
+.cart-data-img{
+    border-radius: .5rem;
+}
+.cart-data-btn{
+    border-radius: .5rem;
+    background-color: rgb(228, 117, 117);
+    padding: .3rem;
+    outline: none;
+    border: none;
+}
+.cart-data-btn:hover{
+    cursor: pointer;
+    background-color: rgb(230, 67, 67);
+
+}

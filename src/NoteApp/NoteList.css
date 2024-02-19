@@ -1,0 +1,15 @@
+.noteList{
+    margin: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.noteList-item{
+    background-color: rgb(54, 54, 126);
+    padding: .5rem ;
+    border-radius: .5rem;
+}
+.noteList-item:hover{
+    cursor: pointer;
+}

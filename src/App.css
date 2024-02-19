@@ -1,0 +1,24 @@
+body {
+  color: #7B241C;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: rgb(241, 239, 235);
+  margin: 0 1rem;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+
+/* .users-ctrl {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.users-ctrl-ul {
+  margin-right: 5rem;
+} */

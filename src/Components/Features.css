@@ -1,0 +1,49 @@
+.feature-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-ctrl {
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
+    background-color: white;
+    border-radius: .5rem;
+    margin: 0 1rem;
+    padding: .5rem 10rem .5rem .5rem;
+
+}
+
+.feature-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.feature-price-ctrl {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.feature-price {
+    margin-right: 3rem;
+}
+
+.feature-price-telorance {
+    font-size: 12px;
+    color: green;
+}
+
+.feature-price-telorance.negative {
+    font-size: 12px;
+    color: red;
+}
+
+.feature-price-telorance-icon {
+    color: green;
+}
+
+.feature-price-telorance-icon.negative {
+    color: red;
+}
+
+.feature-text {}

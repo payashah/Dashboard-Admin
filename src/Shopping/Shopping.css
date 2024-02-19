@@ -1,0 +1,40 @@
+.shopping-product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.shopping-cart{
+    border-radius: .5rem;
+    border: 1px solid chocolate;
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.shopping-cratName{
+    color: chartreuse;
+    text-align: center;
+}
+.shopping-table{
+    width: 100%;
+}
+.shopping-table-header{
+    font-size: 20px;
+    padding: .5rem 0;
+}
+.shopping-table-totalPrice{
+    border: 1px solid chocolate;
+    width: 100%;
+    font-size: 20px;
+    padding: .5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-table-totalPrice-header{
+    margin-left: 2rem;
+}
+.shopping-table-totalPrice-data{
+
+    color: chartreuse;
+}

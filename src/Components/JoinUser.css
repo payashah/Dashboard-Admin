@@ -1,0 +1,45 @@
+.joinUser {
+    flex: 1;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
+    background-color: white;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-left: 10px;
+}
+
+.joinUser-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.joinUser-info-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.joinUser-info-nameJob {}
+
+.joinUser-info-name {}
+
+.joinUser-info-job {
+    color: rgb(168, 163, 163);
+    font-size: 12px;
+}
+
+.joinUser-info-btn {
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinUser-info-btn:hover {
+    cursor: pointer;
+    background-color: rgb(174, 171, 171);
+
+}

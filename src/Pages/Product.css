@@ -1,0 +1,126 @@
+.Product-ctrl {}
+
+.Product {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Product-title {}
+
+.Product-btn {
+    border: none;
+    font-size: 17px;
+    padding: .4rem .7rem;
+    background-color: teal;
+    color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.Product-btn:hover {
+    background-color: rgb(1, 83, 83);
+
+}
+
+.Product-top {
+    display: flex;
+    align-items: center;
+}
+
+.Product-top-left {
+    flex: 1;
+}
+
+.Product-top-right {
+    flex: 1;
+    border-radius: .5rem;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Product-top-right-imgName {
+    display: flex;
+    align-items: center;
+}
+
+.Product-top-right-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .5rem;
+    margin-right: 30px;
+}
+
+.Product-top-right-Name {}
+
+.Product-top-right-info {
+    display: flex;
+    align-items: center;
+}
+
+.Product-top-right-info-title {
+    margin-right: 30px;
+    line-height: .55;
+
+}
+
+.Product-top-right-info-respond {
+    line-height: .55;
+}
+
+.Product-top-right-info-title-item {
+    color: rgb(2, 2, 44);
+    font-weight: 600;
+}
+
+.Product-top-right-info-respond-item {
+    color: rgb(2, 2, 44);
+    font-weight: 300;
+
+}
+
+.Product-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, .75);
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Product-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Product-button-left {}
+
+.Product-button-left-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Product-button-left-form-label {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.Product-button-left-form-label-input {
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    font-size: 15px;
+}
+
+
+.Product-button-left-form-selectBOx {
+    margin-bottom: 10px;
+}

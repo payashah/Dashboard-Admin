@@ -1,0 +1,62 @@
+.todoList-page{}
+.todoList-form{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.todoList-form-ctrl{
+    margin-right: 5rem;
+}
+.todoList-form-input{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 1.3rem;
+}
+.todoList-form-input-text{
+    width: 20rem;
+    padding: .62rem .4rem;
+    margin-right: 0;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+}
+.todoList-form-input-btn{
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-left: 0;
+    padding: .3rem;
+}
+
+.todoList-form-input-btn-icon{
+    font-size: 25px;
+    padding-top: .2rem;
+    color: chocolate;
+}
+.todoList-form-btn-icon:hover{
+    cursor: pointer;
+}
+.todoList-form-select{
+    font-size: 15px;
+    color: chocolate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

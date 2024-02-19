@@ -1,0 +1,41 @@
+
+
+.product-products{
+    box-shadow: 1px 2px 3px chartreuse;
+    width: 13rem;
+    height: auto;
+    text-align: center;
+    background-color: rgb(65, 65, 136);
+    padding: .5rem;
+    margin: 2rem 2.5rem;
+    border-radius: .5rem;
+    
+}
+.product-products-title{
+    font-size: 20px;
+}
+.product-products-img{
+    width: 100%;
+    border-radius: .5rem;
+}
+.product-products-price{
+    color: chartreuse;
+}
+.product-products-description{
+    text-align: start;
+}
+.product-products-btn{
+    width: 100%;
+    border-radius: .5rem;
+    padding: .3rem 0;
+    outline: none;
+    border: none;
+    background-color: rgb(122, 142, 122);
+    color: white;
+    font-size: 17px;
+}
+.product-products-btn:hover{
+    cursor: pointer;
+    background-color: rgb(75, 112, 75);
+
+}

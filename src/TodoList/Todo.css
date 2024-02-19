@@ -1,0 +1,30 @@
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-text{
+    width: 20rem;
+    padding: .62rem .4rem;
+    margin-right: 0;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 20px;
+}
+.todo-btn{
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-left: 0;
+    padding: .3rem;
+    
+}
+.todo-btn-icon{
+    font-size: 25px;
+    padding-top: .2rem;
+    color: chocolate
+}
+.todo-btn-icon:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.note-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 4rem;
+}
+.note-header-icon{
+    font-size: 55px;
+    color: chartreuse;
+    margin-right: 1rem;
+}
+.note-header-title{}
+.note-header-title-span{
+    color: chartreuse;
+}

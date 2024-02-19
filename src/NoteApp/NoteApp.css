@@ -1,0 +1,70 @@
+.noteApp-page{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.noteApp-input-box{
+    margin-right: 5rem;
+}
+.noteApp-input-text{
+    width: 25rem;
+    padding: .5rem .3rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    font-size: 20px;
+}
+.noteApp-input-colorBox{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.noteApp-input-btn{
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(74, 140, 74);
+    color: white;
+}
+.noteApp-input-btn:hover{
+    cursor: pointer;
+    background-color: rgb(23, 97, 23);
+}
+.noteApp-list{
+    border: 1.5px solid chartreuse;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
