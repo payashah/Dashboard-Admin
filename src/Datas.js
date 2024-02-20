@@ -55,3 +55,4 @@ let newUser = [
     { id: 8, title: "Address", placeholder: "address ..." },
 ]
 export { Xdata, NewJoin, NewTransActions, UserRows, AllProducts, ProductData, newUser }
+
