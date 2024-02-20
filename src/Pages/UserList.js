@@ -83,7 +83,7 @@ function UserList() {
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={() => setShowDeleteModal(false)} >Disagree</Button>
-                    <Button onClick={UserDelete(params.row.id)} autoFocus>
+                    <Button onClick={(params) => UserDelete(params.row.id)} autoFocus>
                         Agree
                     </Button>
                 </DialogActions>
