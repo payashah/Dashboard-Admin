@@ -5,12 +5,14 @@ import { UserRows } from "../Datas";
 import { Link } from "react-router-dom";
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import EditNoteOutlinedIcon from '@mui/icons-material/EditNoteOutlined';
+import { Dialog, DialogTitle, DialogActions, DialogContent, DialogContentText, Button } from "@mui/material";
 
 
 
 function UserList() {
 
     const [UserTransActionRows, setUserTransActionRows] = useState(UserRows)
+    const [ShowDeleteModal, setShowDeleteModal] = useState(false)
 
     const UserDelete = (UserID) => {
         setUserTransActionRows(UserTransActionRows.filter((user) => user.id != UserID))
@@ -41,7 +43,7 @@ function UserList() {
                         <Link className="UserList-Actions">
                             <EditNoteOutlinedIcon className="UserList-Actions-edit"></EditNoteOutlinedIcon>
                         </Link>
-                        <DeleteOutlineIcon onClick={() => { UserDelete(params.row.id) }} className="UserList-Actions-delete"></DeleteOutlineIcon>
+                        <DeleteOutlineIcon onClick={() => setShowDeleteModal(true)} className="UserList-Actions-delete"></DeleteOutlineIcon>
 
                     </>
                 )
@@ -66,6 +68,27 @@ function UserList() {
                 }}
                 pageSizeOptions={[4]}
             ></DataGrid>
+            <Dialog
+                open={ShowDeleteModal}
+                aria-labelledby="alert-dialog-title"
+                aria-describedby="alert-dialog-description"
+            >
+                <DialogTitle id="alert-dialog-title" style={{ color: "red" }}>
+                    Delete Item !
+                </DialogTitle>
+                <DialogContent>
+                    <DialogContentText id="alert-dialog-description">
+                        Are You Sure To Delete ?
+                    </DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={() => setShowDeleteModal(false)} >Disagree</Button>
+                    <Button onClick={UserDelete(params.row.id)} autoFocus>
+                        Agree
+                    </Button>
+                </DialogActions>
+            </Dialog>
+
         </div>
     )
 }

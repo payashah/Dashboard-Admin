@@ -16,7 +16,7 @@ function NewUser() {
     const [Address, setAddress] = useState("")
 
     const SubmitHandler = (event) => {
-        // event.preventDefault()
+        event.preventDefault()
         console.log("paya")
 
         let mainNewUser = {
@@ -29,10 +29,10 @@ function NewUser() {
             Sex,
             Address,
         }
-
-        setAllUser((prev) => {
-            return [...prev.allUser, mainNewUser]
+        setAllUser(() => {
+            return [...allUser, mainNewUser]
         })
+
         setFirstName("")
         setLastName("")
         setUserName("")
