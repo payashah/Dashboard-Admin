@@ -1,47 +1,46 @@
 .newUser-ctrl {
-    margin: 0 10px;
     flex: 5;
+    margin: 0 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+
 }
 
 .newUser-title {
-
-    padding-top: 10px;
+    margin-left: 1rem;
 }
 
 .newUser-inputs {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-.newUser-inputs-box {
-    margin-right: 50px;
+.newUser-inputs-item {
+    margin: 0 1rem;
 }
-
-.newUser-inputs-item {}
 
 .newUser-inputs-item-title {
-    font-size: 20px;
-    margin-bottom: .7rem;
+    margin-bottom: 5px;
 }
 
 .newUser-inputs-item-input {
-    outline: none;
     border: none;
-    border-radius: .5rem;
-    width: 20rem;
-    padding: .5rem;
+    width: 30rem;
     font-size: 18px;
+    padding: .8rem .5rem;
+    border-radius: .5rem;
+    background-color: rgb(233, 230, 230);
 }
 
 .newUser-btn {
     background-color: teal;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: .5rem;
     outline: none;
     border: none;
     padding: .5rem 1.5rem;
-    margin-top: 3rem;
+    margin: 2rem 0 2rem 1rem;
 }
 
 .newUser-btn:hover {

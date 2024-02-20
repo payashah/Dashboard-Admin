@@ -38,12 +38,20 @@ let AllProducts = [
     { id: 4, name: "Sharzher", price: "$ 150", img: "./pic/sharzher.jpg" },
     { id: 5, name: "Glasses", price: "$ 700", img: "./pic/glasses.jpg" },
     { id: 6, name: "Atr", price: "$ 1200", img: "./pic/atr.jpg" },
-
 ]
 const ProductData = [
     { "name": "Jun", "sale": 420_000 },
     { "name": "Feb", "sale": 110_000 },
     { "name": "March", "sale": 700_000 },
 ]
-
-export { Xdata, NewJoin, NewTransActions, UserRows, AllProducts, ProductData }
+let newUser = [
+    { id: 1, title: "First Name", placeholder: "first name ..." },
+    { id: 2, title: "Last Name", placeholder: "last name ..." },
+    { id: 3, title: "UserName", placeholder: "username ..." },
+    { id: 4, title: "Password", placeholder: "password ..." },
+    { id: 5, title: "Mobile", placeholder: "09 ..." },
+    { id: 6, title: "Email", placeholder: "...@gmail.com" },
+    { id: 7, title: "Sex", placeholder: "Male or Female" },
+    { id: 8, title: "Address", placeholder: "address ..." },
+]
+export { Xdata, NewJoin, NewTransActions, UserRows, AllProducts, ProductData, newUser }
